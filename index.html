@@ -4,20 +4,27 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
         <title>Dev Contábil</title>
     </head>
     
     <body>
-        <div>
-            <h2>Dev Contábil</h2>
-            <a>Quem somos</a>
-            <a>Serviços</a>
-            <a>Contatos</a>
+        <div class="caixa-superior">
+            <div class="cabecalho">
+                <h2 class="titulo-cabecalho">Dev Contábil</h2>
+                <a class="link-cabecalho">Quem somos</a>
+                <a class="link-cabecalho">Serviços</a>
+                <a class="link-cabecalho">Contatos</a>
+                
+            </div>
 
             <h1>Dev Contábil</h1>
 
             <form>
-                <h3>Entre em contato</h3>
+                <h3 class="titulo-formulario">Entre em contato</h3>
                 
                 <label>
                     Nome
@@ -37,25 +44,13 @@
                 <button>Enviar</button>
             </form>
         </div>
+        
+        <h2 class="titulo-meio">Nossos Seviços</h2>
 
-        <div>
-            <h2>Nossos Seviços</h2>
-
-            <div>
-                <h3>Contabilidade Completa</h3>
-
-                <ul>
-                    <li>Primeiro item da lista</li>
-                    <li>Segundo item da lista</li>
-                    <li>terceiro item da lista</li>
-                    <li>Quarto item da lista</li>
-                    <li>Quinto item da lista</li>
-                    <li>Sexto item da lista</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Cuidamos do seu Negócio</h3>
+        <div class="caixa-central">
+            
+            <div class="card">
+                <h3 class="titulo-card">Contabilidade Completa</h3>
 
                 <ul>
                     <li>Primeiro item da lista</li>
@@ -67,8 +62,21 @@
                 </ul>
             </div>
 
-            <div>
-                <h3>Cuidamos de você</h3>
+            <div class="card">
+                <h3 class="titulo-card">Cuidamos do seu Negócio</h3>
+
+                <ul>
+                    <li>Primeiro item da lista</li>
+                    <li>Segundo item da lista</li>
+                    <li>terceiro item da lista</li>
+                    <li>Quarto item da lista</li>
+                    <li>Quinto item da lista</li>
+                    <li>Sexto item da lista</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3 class="titulo-card">Cuidamos de você</h3>
 
                 <ul>
                     <li>Primeiro item da lista</li>
@@ -81,10 +89,10 @@
             </div>
         </div>
 
-        <div>
-            <h2>Sobre Nós</h2>
+        <div class="caixa-inferior">
+            <h2 class="titulo-inferior">Sobre Nós</h2>
 
-            <p>Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais que já atuam ou desejam abrir seus negócios e ingressar no Brasil.
+            <p class="paragrafo-inferior">Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais que já atuam ou desejam abrir seus negócios e ingressar no Brasil.
 
             Assessoramos investidores que queiram prospectar seus negócios no Brasil e investidores (“brasileiros”) interessados em fazer negócios em outros países.
             Oferecemos “backoffice” nas áreas Financeira, Recursos Humanos, Tributária e Contabilidade, inclusive a abertura, legalização e regularização de empresas e negócios.
