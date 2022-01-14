@@ -23,6 +23,8 @@
     padding => espaçamento interno
     margin => espaçamento externo
     text-align => Alinha o texto
+    href => Local para onde queremos que o link nos envie
+    opacity => Transparencia do elemento
     */
 
 *{
@@ -34,6 +36,7 @@
 .caixa-superior {
     background-image: url("./dev.png");
     height: 90vh;
+    background-size: cover;
 }
 
 .cabecalho {
@@ -53,6 +56,7 @@
     display: inline;
     margin-left: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 h1{
@@ -124,12 +128,13 @@ button {
     margin-bottom: 50px;
 }
 
-.titulo-meio {
+#titulo-meio {
     font-size: 40px;
     color: #252B42;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 
 .card {
@@ -160,11 +165,12 @@ li{
     background-color: #00095d;
 }
 
-.titulo-inferior{
+#titulo-inferior{
     color: #FFFFFF;
     font-size: 40px;
     text-align: center;
     padding-top: 50px;
+    
 }
 
 .paragrafo-inferior{

@@ -15,37 +15,42 @@
         <div class="caixa-superior">
             <div class="cabecalho">
                 <h2 class="titulo-cabecalho">Dev Contábil</h2>
-                <a class="link-cabecalho">Quem somos</a>
-                <a class="link-cabecalho">Serviços</a>
+                <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
+                <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
                 <a class="link-cabecalho">Contatos</a>
                 
             </div>
 
             <h1>Dev Contábil</h1>
 
-            <form>
+            <form id="formulario-contato" action="https://formsubmit.co/elizabethsantos2402@gmail.com" method="POST">
                 <h3 class="titulo-formulario">Entre em contato</h3>
                 
                 <label>
                     Nome
-                    <input placeholder="Digite seu Nome" />
+                    <input type="text" name="nome" placeholder="Digite seu Nome" required />
                 </label>
 
                 <label>
                     E-mail
-                    <input placeholder="Digite seu E-mail" />
+                    <input type="email" name="email" placeholder="Digite seu E-mail" required />
+                </label>
+
+                <label>
+                    WhatsApp
+                    <input type="tel" name="telefone" placeholder="Digite seu telefone" required/>
                 </label>
 
                 <label>
                     Fale Conosco
-                    <textarea placeholder="Qual sua duvida"></textarea>
+                    <textarea name="info" placeholder="Qual sua duvida"></textarea>
                 </label>
 
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
             </form>
         </div>
         
-        <h2 class="titulo-meio">Nossos Seviços</h2>
+        <h2 id="titulo-meio">Nossos Seviços</h2>
 
         <div class="caixa-central">
             
@@ -90,7 +95,7 @@
         </div>
 
         <div class="caixa-inferior">
-            <h2 class="titulo-inferior">Sobre Nós</h2>
+            <h2 id="titulo-inferior">Sobre Nós</h2>
 
             <p class="paragrafo-inferior">Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais que já atuam ou desejam abrir seus negócios e ingressar no Brasil.
 
