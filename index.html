@@ -17,7 +17,7 @@
                 <h2 class="titulo-cabecalho">Dev Contábil</h2>
                 <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
                 <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
-                <a class="link-cabecalho">Contatos</a>
+                <a class="link-cabecalho" onclick="chameOAbacate()" >Contatos</a>
                 
             </div>
 
@@ -107,5 +107,15 @@
             Somos especialistas em empresas tributadas pelo LUCRO REAL e Contabilidade em IFRS. Assim, o Planejamento das Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive sugerindo incorporação ou desmembramento de atividades.</p>
         </div>
     </body>
+
+    <script>
+        let formulario = document.getElementById("formulario-contato")
+
+
+        function chameOAbacate(){
+            formulario.className = "mostrar-formulario"
+        }
+    </script>
+
 
 </html>

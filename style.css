@@ -68,6 +68,8 @@ h1{
 }
 
 form{
+    opacity: 0;
+    transition: opacity 1s linear;
     background-color: #FFFFFF;
     border-radius: 10px;
     float: right;
@@ -75,6 +77,10 @@ form{
     margin-right: 50px;
     position: relative;
     bottom: 70px;
+}
+
+.mostrar-formulario{
+    opacity: 1;
 }
 
 input{
